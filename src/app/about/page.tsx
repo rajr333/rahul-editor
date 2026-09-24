@@ -5,7 +5,7 @@ import { ArrowUpRight, Film, Sparkles, MessageSquare, ShieldAlert } from 'lucide
 export const metadata = {
   title: 'About Rahul | Video Editor & Visual Storyteller',
   description:
-    'Learn about Rahul Editor: creative philosophy, editing specializations in crime documentary, talk creative editing, and motion graphics.',
+    'Learn about Rahul Editor: creative philosophy, editing specializations in crime documentary and motion graphics.',
 };
 
 export default function AboutPage() {

@@ -5,7 +5,7 @@ import { ArrowUpRight, CheckCircle2, Film, Mic, Sparkles, Volume2, Palette, Smar
 export const metadata = {
   title: 'Services | Rahul Editor',
   description:
-    'Comprehensive post-production video editing services: Documentary editing, talk & podcast editing, motion graphics, sound design, color grading, and short-form content.',
+    'Comprehensive post-production video editing services: Crime documentary editing, motion graphics, sound design, color grading, and short-form content.',
 };
 
 export default function ServicesPage() {
@@ -30,15 +30,6 @@ export default function ServicesPage() {
     },
     {
       id: '03',
-      title: 'TALK & PODCAST EDITING',
-      subtitle: 'High-Retention Conversational Edits',
-      icon: Mic,
-      description:
-        'Engineered for maximum viewer retention. Seamless jump cuts, dynamic punch-ins, kinetic subtitle graphics, visual pattern interrupts, and podcast mastering.',
-      deliverables: ['Engaging Long-Form Cut', 'Highlight Reel Pulls', 'Synchronized Subtitles'],
-    },
-    {
-      id: '04',
       title: 'MOTION GRAPHICS',
       subtitle: 'Visual Systems & Typography',
       icon: Sparkles,
@@ -47,7 +38,7 @@ export default function ServicesPage() {
       deliverables: ['Custom After Effects Rigs', 'Alpha Channel Overlays', 'Vector Motion Assets'],
     },
     {
-      id: '05',
+      id: '04',
       title: 'SOUND DESIGN & FOLEY',
       subtitle: 'Acoustic Atmosphere & Impact',
       icon: Volume2,
@@ -56,16 +47,16 @@ export default function ServicesPage() {
       deliverables: ['Mastered Dialogue Bus', 'Sound Effects Track Stems', 'Lossless WAV Master'],
     },
     {
-      id: '06',
+      id: '05',
       title: 'COLOR GRADING',
       subtitle: 'Filmic Mood & Palette Finishing',
       icon: Palette,
       description:
-        'Professional DaVinci Resolve color passes: scene-to-scene matching, shadow density, highlight roll-off, skin-tone isolation, and custom film LUT styling.',
+        'Professional color passes: scene-to-scene matching, shadow density, highlight roll-off, skin-tone isolation, and custom film LUT styling.',
       deliverables: ['ProRes Master Export', 'Custom Look LUTs', 'Rec.709 & HDR Conformance'],
     },
     {
-      id: '07',
+      id: '06',
       title: 'SOCIAL MEDIA EDITING',
       subtitle: 'Shorts, Reels & TikTok Formats',
       icon: Smartphone,

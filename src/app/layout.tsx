@@ -6,9 +6,10 @@ import CustomCursor from '@/components/CustomCursor';
 import FilmPreloader from '@/components/FilmPreloader';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://rahul-editor.vercel.app'),
   title: 'Rahul Editor | Video Editor & Visual Storyteller',
   description:
-    'Professional video editing and visual storytelling portfolio for Rahul Editor. Specializing in Crime Documentary Editing, Talk Creative Editing, and Motion Graphics.',
+    'Professional video editing and visual storytelling portfolio for Rahul Editor. Specializing in Crime Documentary Editing and Motion Graphics.',
   keywords: [
     'Rahul Editor',
     'Video Editor',
@@ -16,8 +17,6 @@ export const metadata: Metadata = {
     'Documentary Video Editor',
     'Crime Documentary Editor',
     'YouTube Video Editor',
-    'Podcast Video Editor',
-    'Talk Creative Editing',
     'Motion Graphics Designer',
     'Visual Storyteller',
   ],
@@ -26,10 +25,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: 'website',
     locale: 'en_US',
-    url: 'https://rahuleditor.com',
+    url: 'https://rahul-editor.vercel.app',
     title: 'Rahul Editor | Video Editor & Visual Storyteller',
     description:
-      'Crafting stories through cuts, sound, motion and visual rhythm. Specializing in Crime Documentary, Talk Creative Editing, and Motion Graphics.',
+      'Crafting stories through cuts, sound, motion and visual rhythm. Specializing in Crime Documentary and Motion Graphics.',
     siteName: 'Rahul Editor',
     images: [
       {

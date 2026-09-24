@@ -21,7 +21,6 @@ export default function InquiryForm({ initialType = '' }: { initialType?: string
 
   const projectTypes = [
     'Crime Documentary',
-    'Talk / Podcast',
     'Motion Graphics',
     'YouTube Video',
     'Short-form Content',

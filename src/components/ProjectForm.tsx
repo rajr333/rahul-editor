@@ -42,7 +42,6 @@ export default function ProjectForm({ initialProject, isEdit = false }: ProjectF
 
   const categories = [
     'Crime Documentary Editing',
-    'Talk Creative Editing',
     'Motion Graphics',
     'Commercial / Brand Ad',
     'YouTube Longform',

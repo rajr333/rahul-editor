@@ -84,6 +84,10 @@ export async function addInquiry(inquiry: Omit<Inquiry, 'id' | 'createdAt' | 'st
     status: 'new',
   };
   inquiries.unshift(newInquiry);
-  const success = await saveInquiries(inquiries);
-  return success ? newInquiry : null;
+  try {
+    await saveInquiries(inquiries);
+  } catch (err) {
+    console.warn('Could not persist inquiry to disk (serverless environment):', err);
+  }
+  return newInquiry;
 }

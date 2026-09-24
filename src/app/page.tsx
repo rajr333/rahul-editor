@@ -273,10 +273,6 @@ export default async function HomePage() {
                 desc: 'Story-driven documentary editing, investigative pacing, and archival weaving.',
               },
               {
-                title: 'TALK / PODCAST EDITING',
-                desc: 'Dynamic talking-head, interview, and podcast edits engineered for retention.',
-              },
-              {
                 title: 'MOTION GRAPHICS',
                 desc: 'Typography, infographics, logo motion, map tracking, and custom 2D systems.',
               },
@@ -422,7 +418,7 @@ export default async function HomePage() {
                   I approach post-production not as an assembly line of cuts, but as visual architecture. Every frame holds information, every silence creates suspense, and every rhythmic shift commands human attention.
                 </p>
                 <p>
-                  Specializing across Crime Documentary Editing, Talk Creative Editing, and Motion Graphics, my mission is simple: turn raw footage into stories that stay with the audience long after the screen goes dark.
+                  Specializing in Crime Documentary Editing and Motion Graphics, my mission is simple: turn raw footage into stories that stay with the audience long after the screen goes dark.
                 </p>
               </div>
 
