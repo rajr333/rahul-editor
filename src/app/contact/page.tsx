@@ -5,25 +5,25 @@ import { Mail, MessageSquare, ArrowUpRight, Clock, ShieldCheck, Globe, Video } f
 export const metadata = {
   title: 'Contact & Project Inquiry | Rahul Editor',
   description:
-    'Start a project inquiry with Rahul Editor. Book video editing for crime documentaries, talk creative content, podcasts, and motion graphics.',
+    'Start a project inquiry with Rahul Editor. Book video editing for crime documentaries and motion graphics.',
 };
 
 export default function ContactPage() {
   return (
-    <div className="pt-32 pb-24 space-y-16 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-4">
+    <div className="pt-24 sm:pt-32 pb-16 sm:pb-24 space-y-12 sm:space-y-16 min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 space-y-3 sm:space-y-4">
         <p className="text-xs uppercase tracking-[0.25em] text-zinc-500 font-semibold">
           Initiate Collaboration
         </p>
-        <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white uppercase">
+        <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-black tracking-tight text-white uppercase leading-tight">
           HAVE A PROJECT IN MIND?
         </h1>
-        <p className="text-base sm:text-xl text-zinc-300 font-light max-w-2xl leading-relaxed">
+        <p className="text-sm sm:text-base md:text-xl text-zinc-300 font-light max-w-2xl leading-relaxed">
           Tell me what you&apos;re working on. Let&apos;s turn the footage into something worth watching.
         </p>
       </div>
 
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           {/* Form Column */}
           <div className="lg:col-span-8">

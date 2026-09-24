@@ -18,27 +18,27 @@ export default async function HomePage() {
   return (
     <div className="relative">
       {/* 02 — CINEMATIC HERO SECTION */}
-      <section className="relative min-h-[92vh] flex flex-col justify-center pt-28 pb-16 px-6 md:px-12 max-w-7xl mx-auto overflow-hidden">
-        <div className="space-y-6 max-w-4xl z-10">
-          <div className="inline-flex items-center gap-2 py-1 px-3 border border-white/10 text-[11px] font-mono tracking-[0.25em] text-zinc-400 uppercase bg-white/5">
+      <section className="relative min-h-[92vh] flex flex-col justify-center pt-24 sm:pt-28 pb-12 sm:pb-16 px-4 sm:px-6 md:px-12 max-w-7xl mx-auto overflow-hidden">
+        <div className="space-y-5 sm:space-y-6 max-w-4xl z-10">
+          <div className="inline-flex items-center gap-2 py-1 px-2.5 sm:px-3 border border-white/10 text-[10px] sm:text-[11px] font-mono tracking-[0.2em] sm:tracking-[0.25em] text-zinc-400 uppercase bg-white/5">
             <span className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
             <span>VIDEO EDITOR • STORYTELLING • MOTION</span>
           </div>
 
-          <h1 className="text-4xl sm:text-6xl md:text-8xl font-black tracking-tighter text-white uppercase leading-[0.95]">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-black tracking-tight text-white uppercase leading-[0.98]">
             VIDEO EDITOR.<br />
             <span className="text-zinc-400">VISUAL STORYTELLER.</span>
           </h1>
 
-          <p className="text-base sm:text-lg md:text-xl text-zinc-300 max-w-2xl font-light leading-relaxed">
+          <p className="text-sm sm:text-base md:text-xl text-zinc-300 max-w-2xl font-light leading-relaxed">
             I turn raw footage into engaging stories through editing, sound design, motion and visual rhythm.
           </p>
 
-          <div className="pt-4 flex flex-wrap items-center gap-4">
+          <div className="pt-3 sm:pt-4 flex flex-col sm:flex-row items-stretch sm:items-center gap-3 sm:gap-4">
             <a
               href="/work"
               data-cursor="open"
-              className="inline-flex items-center gap-2 px-8 py-3.5 bg-white text-black font-semibold text-xs uppercase tracking-widest hover:bg-zinc-200 transition-all shadow-xl"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 bg-white text-black font-semibold text-xs uppercase tracking-widest hover:bg-zinc-200 transition-all shadow-xl text-center active:scale-95"
             >
               <span>View My Work</span>
               <ArrowUpRight className="w-4 h-4" />
@@ -46,7 +46,7 @@ export default async function HomePage() {
 
             <a
               href="/contact"
-              className="inline-flex items-center gap-2 px-8 py-3.5 border border-white/20 text-white font-semibold text-xs uppercase tracking-widest hover:border-white hover:bg-white/5 transition-all"
+              className="inline-flex items-center justify-center gap-2 px-6 sm:px-8 py-3.5 border border-white/20 text-white font-semibold text-xs uppercase tracking-widest hover:border-white hover:bg-white/5 transition-all text-center active:scale-95"
             >
               <span>Let&apos;s Work Together</span>
             </a>
@@ -54,7 +54,7 @@ export default async function HomePage() {
         </div>
 
         {/* Cinematic Video Preview / Showreel in Hero */}
-        <div className="mt-12 md:mt-16 w-full relative">
+        <div id="showreel" className="mt-10 sm:mt-12 md:mt-16 w-full relative scroll-mt-24">
           <div className="relative border border-white/10 overflow-hidden shadow-2xl bg-black">
             <div className="absolute top-4 left-4 z-20 flex items-center gap-2 bg-black/70 backdrop-blur-md px-3 py-1 border border-white/10 text-[10px] font-mono tracking-widest text-zinc-300 uppercase">
               <span className="w-2 h-2 rounded-full bg-red-600 animate-ping" />
@@ -92,18 +92,18 @@ export default async function HomePage() {
         </div>
       </section>
 
-      {/* 04 & 06 — WHAT I EDIT (THE THREE SPECIALIZATIONS) */}
-      <section className="py-28 max-w-7xl mx-auto px-6 md:px-12 space-y-16">
+      {/* 04 & 06 — WHAT I EDIT (THE TWO SPECIALIZATIONS) */}
+      <section className="py-20 sm:py-28 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 space-y-12 sm:space-y-16">
         <div>
-          <p className="text-xs uppercase tracking-[0.25em] text-zinc-500 font-semibold mb-3">
+          <p className="text-xs uppercase tracking-[0.25em] text-zinc-500 font-semibold mb-2 sm:mb-3">
             Core Focus Areas
           </p>
-          <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white uppercase">
+          <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight text-white uppercase">
             WHAT I EDIT
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:gap-8">
           {/* 01: CRIME DOCUMENTARY EDITING */}
           <div className="group relative bg-[#0d0d10] border border-white/5 hover:border-red-500/30 transition-all duration-300 flex flex-col justify-between overflow-hidden">
             <div className="relative aspect-video w-full bg-black overflow-hidden">
@@ -113,6 +113,7 @@ export default async function HomePage() {
                 playsInline
                 loop
                 autoPlay
+                preload="metadata"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 filter contrast-110"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d10] via-black/30 to-transparent" />
@@ -121,20 +122,20 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="p-6 md:p-8 space-y-4 flex-1 flex flex-col justify-between">
+            <div className="p-5 sm:p-6 md:p-8 space-y-4 flex-1 flex flex-col justify-between">
               <div>
-                <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight text-white group-hover:text-red-400 transition-colors">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold uppercase tracking-tight text-white group-hover:text-red-400 transition-colors">
                   CRIME DOCUMENTARY EDITING
                 </h3>
-                <p className="text-xs font-mono text-zinc-500 uppercase tracking-widest mt-1">
+                <p className="text-[11px] sm:text-xs font-mono text-zinc-500 uppercase tracking-widest mt-1">
                   Dark stories • Complex information • Precise pacing
                 </p>
-                <p className="text-xs md:text-sm text-zinc-400 mt-4 leading-relaxed">
+                <p className="text-xs sm:text-sm text-zinc-400 mt-3 sm:mt-4 leading-relaxed font-light">
                   Crafting investigative tension, evidence boards, archival asset integration, map animations, and deep atmospheric soundscapes.
                 </p>
               </div>
 
-              <div className="pt-6 border-t border-white/5">
+              <div className="pt-4 sm:pt-6 border-t border-white/5">
                 <a
                   href="/work/crime-documentary"
                   className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest font-semibold text-white group-hover:text-red-400 transition-colors"
@@ -155,6 +156,7 @@ export default async function HomePage() {
                 playsInline
                 loop
                 autoPlay
+                preload="metadata"
                 className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0d0d10] via-black/30 to-transparent" />
@@ -163,20 +165,20 @@ export default async function HomePage() {
               </div>
             </div>
 
-            <div className="p-6 md:p-8 space-y-4 flex-1 flex flex-col justify-between">
+            <div className="p-5 sm:p-6 md:p-8 space-y-4 flex-1 flex flex-col justify-between">
               <div>
-                <h3 className="text-xl md:text-2xl font-bold uppercase tracking-tight text-white group-hover:text-emerald-400 transition-colors">
+                <h3 className="text-lg sm:text-xl md:text-2xl font-bold uppercase tracking-tight text-white group-hover:text-emerald-400 transition-colors">
                   MOTION GRAPHICS
                 </h3>
-                <p className="text-xs font-mono text-zinc-500 uppercase tracking-widest mt-1">
+                <p className="text-[11px] sm:text-xs font-mono text-zinc-500 uppercase tracking-widest mt-1">
                   Design, movement and storytelling in motion
                 </p>
-                <p className="text-xs md:text-sm text-zinc-400 mt-4 leading-relaxed">
+                <p className="text-xs sm:text-sm text-zinc-400 mt-3 sm:mt-4 leading-relaxed font-light">
                   Building visual motion systems: kinetic typography, infographics, data visualization, UI animations, and title sequences.
                 </p>
               </div>
 
-              <div className="pt-6 border-t border-white/5">
+              <div className="pt-4 sm:pt-6 border-t border-white/5">
                 <a
                   href="/work/motion-graphics"
                   className="inline-flex items-center gap-1.5 text-xs uppercase tracking-widest font-semibold text-white group-hover:text-emerald-400 transition-colors"
@@ -191,14 +193,14 @@ export default async function HomePage() {
       </section>
 
       {/* 05 — SELECTED WORK SECTION */}
-      <section className="py-24 bg-[#070708] border-t border-white/5">
-        <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-12">
-          <div className="flex flex-col md:flex-row md:items-end justify-between gap-4">
+      <section className="py-20 sm:py-24 bg-[#070708] border-t border-white/5">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 space-y-10 sm:space-y-12">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
             <div>
-              <p className="text-xs uppercase tracking-[0.25em] text-zinc-500 font-semibold mb-3">
+              <p className="text-xs uppercase tracking-[0.25em] text-zinc-500 font-semibold mb-2 sm:mb-3">
                 Curated Portfolio
               </p>
-              <h2 className="text-3xl md:text-5xl font-bold tracking-tight text-white uppercase">
+              <h2 className="text-2xl sm:text-3xl md:text-5xl font-bold tracking-tight text-white uppercase">
                 SELECTED WORK
               </h2>
             </div>
@@ -212,8 +214,8 @@ export default async function HomePage() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-            {displayFeatured.map((project) => (
-              <ProjectCard key={project.id} project={project} />
+            {displayFeatured.map((project, idx) => (
+              <ProjectCard key={project.id} project={project} priority={idx === 0} />
             ))}
           </div>
         </div>

@@ -31,17 +31,17 @@ export default function PortfolioGrid({
     <div className="space-y-10">
       {/* Category Filter Tabs */}
       {showFilters && (
-        <div className="flex flex-wrap items-center gap-2 md:gap-3 border-b border-white/5 pb-6">
+        <div className="flex items-center gap-2 overflow-x-auto pb-4 no-scrollbar border-b border-white/5">
           {filterTabs.map((tab) => {
             const isActive = activeCategory === tab.value;
             return (
               <button
                 key={tab.value}
                 onClick={() => setActiveCategory(tab.value)}
-                className={`text-xs uppercase tracking-widest px-4 py-2 transition-all font-medium border ${
+                className={`text-[11px] sm:text-xs uppercase tracking-widest px-3.5 sm:px-4 py-2 transition-all font-medium border whitespace-nowrap active:scale-95 ${
                   isActive
                     ? 'bg-white text-black border-white'
-                    : 'bg-transparent text-zinc-400 hover:text-white border-white/5 hover:border-white/20'
+                    : 'bg-transparent text-zinc-400 hover:text-white border-white/10 hover:border-white/20'
                 }`}
               >
                 {tab.label}
@@ -54,8 +54,8 @@ export default function PortfolioGrid({
       {/* Projects Grid */}
       {filteredProjects.length > 0 ? (
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
-          {filteredProjects.map((project) => (
-            <ProjectCard key={project.id} project={project} />
+          {filteredProjects.map((project, idx) => (
+            <ProjectCard key={project.id} project={project} priority={idx < 2} />
           ))}
         </div>
       ) : (

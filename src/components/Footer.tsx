@@ -3,8 +3,8 @@ import { ArrowUpRight, Lock } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="bg-[#050506] border-t border-white/5 pt-20 pb-12 text-zinc-400">
-      <div className="max-w-7xl mx-auto px-6 md:px-12">
+    <footer className="bg-[#050506] border-t border-white/5 pt-16 sm:pt-20 pb-12 text-zinc-400">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 pb-16 border-b border-white/5">
           {/* Brand & Positioning */}
           <div className="md:col-span-6 space-y-4">

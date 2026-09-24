@@ -12,7 +12,7 @@ export default async function MotionGraphicsPage() {
   );
 
   return (
-    <div className="pt-32 pb-24 max-w-7xl mx-auto px-6 md:px-12 space-y-16 min-h-screen">
+    <div className="pt-24 sm:pt-32 pb-16 sm:pb-24 max-w-7xl mx-auto px-4 sm:px-6 md:px-12 space-y-12 sm:space-y-16 min-h-screen">
       <div className="space-y-6">
         <a
           href="/work"
@@ -22,12 +22,12 @@ export default async function MotionGraphicsPage() {
           <span>Back To All Work</span>
         </a>
 
-        <div className="border-l-2 border-emerald-500 pl-6 py-2 space-y-3">
-          <div className="flex items-center gap-2 text-emerald-500 font-mono text-xs uppercase tracking-widest">
-            <Sparkles className="w-4 h-4" />
-            <span>Category 03 • Motion Systems & Animation</span>
+        <div className="border-l-2 border-emerald-500 pl-4 sm:pl-6 py-2 space-y-3">
+          <div className="flex items-center gap-2 text-emerald-500 font-mono text-[11px] sm:text-xs uppercase tracking-widest">
+            <Sparkles className="w-3.5 sm:w-4 h-3.5 sm:h-4" />
+            <span>Category 02 • Motion Systems & Animation</span>
           </div>
-          <h1 className="text-4xl sm:text-6xl font-black tracking-tight text-white uppercase">
+          <h1 className="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight text-white uppercase">
             MOTION GRAPHICS
           </h1>
           <p className="text-lg md:text-xl text-zinc-300 font-light">

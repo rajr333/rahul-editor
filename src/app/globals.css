@@ -82,3 +82,24 @@ body {
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
+
+/* Mobile smooth scrolling & tap highlight */
+html {
+  scroll-behavior: smooth;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Mobile touch performance - removes 300ms tap delay */
+.touch-manipulation {
+  touch-action: manipulation;
+}
+
+/* Hide scrollbar utility for horizontal scroll tabs */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+

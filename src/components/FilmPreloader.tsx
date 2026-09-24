@@ -19,8 +19,8 @@ export default function FilmPreloader() {
       setTimeout(() => {
         setLoading(false);
         sessionStorage.setItem('rahul_preloader_seen', 'true');
-      }, 500);
-    }, 1100);
+      }, 300);
+    }, 350);
 
     return () => clearTimeout(timer);
   }, []);

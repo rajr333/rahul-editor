@@ -25,10 +25,10 @@ export default async function ProjectDetailPage({
   const nextProject = projects[(projectIndex + 1) % projects.length];
 
   return (
-    <article className="pt-32 pb-24 min-h-screen">
-      <div className="max-w-7xl mx-auto px-6 md:px-12 space-y-16">
+    <article className="pt-24 sm:pt-32 pb-16 sm:pb-24 min-h-screen">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 md:px-12 space-y-12 sm:space-y-16">
         {/* Navigation & Header */}
-        <div className="space-y-6">
+        <div className="space-y-4 sm:space-y-6">
           <a
             href="/work"
             className="inline-flex items-center gap-2 text-xs uppercase tracking-widest text-zinc-500 hover:text-white transition-colors"
@@ -37,11 +37,11 @@ export default async function ProjectDetailPage({
             <span>Back To Portfolio</span>
           </a>
 
-          <div className="space-y-3">
-            <span className="inline-block text-xs uppercase font-mono tracking-widest text-zinc-400 bg-white/5 border border-white/10 px-3 py-1">
+          <div className="space-y-2 sm:space-y-3">
+            <span className="inline-block text-[11px] sm:text-xs uppercase font-mono tracking-widest text-zinc-400 bg-white/5 border border-white/10 px-2.5 sm:px-3 py-0.5 sm:py-1">
               {project.category}
             </span>
-            <h1 className="text-4xl sm:text-6xl md:text-7xl font-black tracking-tight text-white uppercase">
+            <h1 className="text-2xl sm:text-4xl md:text-6xl lg:text-7xl font-black tracking-tight text-white uppercase leading-tight">
               {project.title}
             </h1>
             <p className="text-base sm:text-xl text-zinc-300 font-light max-w-3xl leading-relaxed">
