@@ -1,0 +1,349 @@
+[
+  {
+    "id": "crime-doc-01",
+    "title": "The Crime Scene Investigation",
+    "slug": "the-crime-scene-investigation",
+    "category": "Crime Documentary Editing",
+    "description": "Forensic cold case breakdown with atmospheric analog grading, tension pacing, and reconstructed crime scene sequences.",
+    "thumbnail": "/videos/crime-documentary/1.mp4",
+    "video": "/videos/crime-documentary/1.mp4",
+    "duration": "12:45",
+    "year": "2026",
+    "role": [
+      "Story Structure",
+      "Lead Video Editor",
+      "Sound Design",
+      "Color Grading"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "Transforming over 30 hours of raw investigative recordings and crime scene photographs into a gripping 12-minute documentary segment.",
+      "challenge": "Maintaining dramatic tension without sensationalizing real tragedy, while presenting complex forensic timelines clearly.",
+      "solution": "Built a three-act timeline structure with evidence-board pacing, slow push-ins on archival documents, and low-frequency sonic tension.",
+      "techniques": [
+        "Pacing and tension building across narrative acts",
+        "Archival document texture animation",
+        "Spatial audio design with police radio filters",
+        "Cold filmic LUTs with pushed shadows"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:20:00.000Z",
+    "order": 1
+  },
+  {
+    "id": "crime-doc-02",
+    "title": "Cold Case Dossier",
+    "slug": "cold-case-dossier",
+    "category": "Crime Documentary Editing",
+    "description": "Investigative documentary exploring unsolved archival files, timeline mapping, and psychological suspense rhythm.",
+    "thumbnail": "/videos/crime-documentary/2.mp4",
+    "video": "/videos/crime-documentary/2.mp4",
+    "duration": "14:10",
+    "year": "2026",
+    "role": [
+      "Lead Editor",
+      "Sound Design",
+      "Timeline & Map Graphics"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "Condensing decades of unsolved mystery archives into a structured, cinematic visual investigation.",
+      "challenge": "Balancing disparate archival formats (VHS, microfilm, telephone audio) into a single cohesive broadcast edit.",
+      "solution": "Uniform 2.39:1 letterboxing with grain mapping and unified analog sound design.",
+      "techniques": [
+        "Chronological evidence mapping",
+        "Microfilm analog texture simulation",
+        "Audio forensic restoration",
+        "Tension risers and room tone design"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:21:00.000Z",
+    "order": 2
+  },
+  {
+    "id": "crime-doc-03",
+    "title": "The Interrogation Tape",
+    "slug": "the-interrogation-tape",
+    "category": "Crime Documentary Editing",
+    "description": "High-suspense interrogation breakdown blending audio restoration, micro-expression cutaways, and low-end drone soundscapes.",
+    "thumbnail": "/videos/crime-documentary/3.mp4",
+    "video": "/videos/crime-documentary/3.mp4",
+    "duration": "15:30",
+    "year": "2026",
+    "role": [
+      "Narrative Structure",
+      "Sound Restoration",
+      "Color Grading"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "Frame-by-frame scrutiny of historic interrogation footage with psychological rhythm cuts.",
+      "challenge": "Creating high retention around seated dialogue without artificial or distracting effects.",
+      "solution": "Punch-ins on gestures, sub-bass heartbeat pulses, and strategic room silences.",
+      "techniques": [
+        "Psychological pause calibration",
+        "Multi-track dialogue leveling",
+        "Atmospheric analog noise layering",
+        "Shadow density curve grading"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:22:00.000Z",
+    "order": 3
+  },
+  {
+    "id": "crime-doc-04",
+    "title": "Shadows Of The Evidence",
+    "slug": "shadows-of-the-evidence",
+    "category": "Crime Documentary Editing",
+    "description": "Investigative narrative examining forensic witness logs and police evidence boards with dark cinematic pacing.",
+    "thumbnail": "/videos/crime-documentary/4.mp4",
+    "video": "/videos/crime-documentary/4.mp4",
+    "duration": "16:20",
+    "year": "2026",
+    "role": [
+      "Lead Video Editor",
+      "Archival Treatment",
+      "Sound Design"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "Evidence board storytelling connecting complex witness timelines and contradictory testimonies.",
+      "challenge": "Preventing viewer fatigue across dense legal and investigative details.",
+      "solution": "Dynamic 2.5D camera pushes across interconnected evidence files and maps.",
+      "techniques": [
+        "Evidence board 3D spatial mapping",
+        "Document redaction animations",
+        "Low-frequency audio swells",
+        "Filmic halation and grain"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:23:00.000Z",
+    "order": 4
+  },
+  {
+    "id": "crime-doc-05",
+    "title": "Unsolved Anatomy",
+    "slug": "unsolved-anatomy",
+    "category": "Crime Documentary Editing",
+    "description": "Deep investigative piece analyzing timeline discrepancies, forensic crime files, and location transit maps.",
+    "thumbnail": "/videos/crime-documentary/5.mp4",
+    "video": "/videos/crime-documentary/5.mp4",
+    "duration": "11:50",
+    "year": "2026",
+    "role": [
+      "Story Arc",
+      "Pacing & Trimming",
+      "Color Grading"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "Forensic reconstruction of key alibis with pinpoint chronological visual aids.",
+      "challenge": "Structuring rapid temporal jumps between past events and modern investigation.",
+      "solution": "Distinct color treatments and auditory cues separating historic archive from present-day analysis.",
+      "techniques": [
+        "Temporal color palette separation",
+        "Geospatial route tracking",
+        "Tape rewind transitions",
+        "Sub-bass impact hits"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:24:00.000Z",
+    "order": 5
+  },
+  {
+    "id": "crime-doc-06",
+    "title": "The Final Verdict",
+    "slug": "the-final-verdict",
+    "category": "Crime Documentary Editing",
+    "description": "A multi-layered 6-part docuseries finale cut tracking courtroom revelations, archival news clips, and tension-heavy sound design.",
+    "thumbnail": "/videos/crime-documentary/6.mp4",
+    "video": "/videos/crime-documentary/6.mp4",
+    "duration": "18:40",
+    "year": "2026",
+    "role": [
+      "Lead Editor",
+      "Sound Design",
+      "VFX Compositing",
+      "Finishing"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Crime Documentary",
+    "caseStudy": {
+      "overview": "The dramatic conclusion to an investigative docuseries bringing together forensic testimony and verdict reveals.",
+      "challenge": "Delivering an emotionally satisfying climax with sustained dramatic suspense.",
+      "solution": "Accelerating editorial rhythm culminating in a quiet, high-impact final sequence.",
+      "techniques": [
+        "Climactic editorial acceleration",
+        "Orchestral audio mix mastering",
+        "Split-screen courtroom comparison",
+        "Cold cinematic finishing"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:25:00.000Z",
+    "order": 6
+  },
+  {
+    "id": "motion-01-first",
+    "title": "Kinetic Identity Motion",
+    "slug": "kinetic-identity-motion",
+    "category": "Motion Graphics",
+    "description": "Precise kinetic typography and visual identity motion designed with custom speed curves and rhythmic transitions.",
+    "thumbnail": "/videos/motion-graphics/first.mp4",
+    "video": "/videos/motion-graphics/first.mp4",
+    "duration": "01:15",
+    "year": "2026",
+    "role": [
+      "Motion Design",
+      "Kinetic Typography",
+      "Speed Graph Animation",
+      "Sound Design"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Motion Graphics",
+    "caseStudy": {
+      "overview": "Exploration of typographic weight transitions and smooth camera movement for brand identity.",
+      "challenge": "Achieving organic movement without rubbery or exaggerated overshoot.",
+      "solution": "Custom mathematical Bezier speed graph curves paired with subtle sound effects.",
+      "techniques": [
+        "Custom Bezier easing",
+        "Typographic tracking and kerning choreography",
+        "Micro-sound effect design",
+        "Alpha channel transitions"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:40:00.000Z",
+    "order": 7
+  },
+  {
+    "id": "motion-02-final",
+    "title": "Dynamic Brand Systems",
+    "slug": "dynamic-brand-systems",
+    "category": "Motion Graphics",
+    "description": "Comprehensive motion system showcasing fluid brand choreography, logo movement, and cinematic title design.",
+    "thumbnail": "/videos/motion-graphics/final.mp4",
+    "video": "/videos/motion-graphics/final.mp4",
+    "duration": "01:30",
+    "year": "2026",
+    "role": [
+      "Motion Systems",
+      "Logo Animation",
+      "Title Design",
+      "Audio Synchronization"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Brand Motion",
+    "caseStudy": {
+      "overview": "Building an extensible motion design language for high-impact visual branding.",
+      "challenge": "Maintaining maximum legibility while delivering energetic, multi-layered visual animations.",
+      "solution": "Structured hierarchical layering where secondary animations support focal points.",
+      "techniques": [
+        "Hierarchical motion design",
+        "Subtle motion blur optimization",
+        "Geometric shape path morphing",
+        "Color palette harmony"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:41:00.000Z",
+    "order": 8
+  },
+  {
+    "id": "motion-03-health",
+    "title": "Health Risk Infographic Animation",
+    "slug": "health-risk-infographic-animation",
+    "category": "Motion Graphics",
+    "description": "Engaging infographic explainer animating complex health metrics, risk factors, and data points with clear visual hierarchy.",
+    "thumbnail": "/videos/motion-graphics/Managing_health_risk_factors_ani._20260922084156_gwr_video_mvp.mp4",
+    "video": "/videos/motion-graphics/Managing_health_risk_factors_ani._20260922084156_gwr_video_mvp.mp4",
+    "duration": "01:45",
+    "year": "2026",
+    "role": [
+      "Data Visualization",
+      "Infographic Motion",
+      "2D Character & Icon Rigging",
+      "Narrative Pacing"
+    ],
+    "tools": [
+      "Adobe Premiere Pro",
+      "Adobe After Effects"
+    ],
+    "featured": true,
+    "published": true,
+    "projectType": "Infographic Animation",
+    "caseStudy": {
+      "overview": "Translating dense medical and statistical risk factors into clear, digestible, animated visual storytelling.",
+      "challenge": "Communicating critical health information without causing viewer overload.",
+      "solution": "Modular iconography, color-coded risk indicators, and rhythmic animated callouts.",
+      "techniques": [
+        "Data graph progression animation",
+        "Icon rigging and secondary action",
+        "Voiceover synchronization",
+        "Color-coded visual hierarchy"
+      ]
+    },
+    "beforeMedia": "/images/rahul.png",
+    "afterMedia": "/images/rahul.png",
+    "createdAt": "2026-09-24T18:42:00.000Z",
+    "order": 9
+  }
+]

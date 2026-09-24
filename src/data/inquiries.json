@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Christopher Nolan",
+    "email": "nolan@syncopy.com",
+    "projectType": "Crime Documentary",
+    "description": "Investigative documentary requiring non-linear structure, analog sound design, and cold color grading.",
+    "videoLength": "20 minutes",
+    "deadline": "End of next month",
+    "budgetRange": ",500 - ,000",
+    "referenceLink": "",
+    "footageLink": "",
+    "id": "inq-1790252026288",
+    "createdAt": "2026-09-24T12:13:46.288Z",
+    "status": "new"
+  }
+]

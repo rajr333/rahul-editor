@@ -1,0 +1,50 @@
+[
+  {
+    "id": "cat-crime-doc",
+    "name": "Crime Documentary Editing",
+    "slug": "crime-documentary",
+    "tagline": "Dark stories. Complex information. Precise pacing.",
+    "description": "Crafting high-tension investigative narratives, evidence-driven visual storytelling, archival photo/document treatment, suspenseful pacing, and atmospheric sound design.",
+    "visualKeywords": [
+      "Dark cinematic aesthetic",
+      "Moody environments",
+      "Investigative atmosphere",
+      "Evidence-style graphics",
+      "Maps & timeline graphics",
+      "Dramatic sound design"
+    ],
+    "techniques": [
+      "Story pacing & tension building",
+      "Strategic dramatic cuts",
+      "Archival footage integration",
+      "Map & timeline animation",
+      "Atmospheric color grading",
+      "Evidence document textures"
+    ],
+    "accentColor": "#ef4444"
+  },
+  {
+    "id": "cat-motion-graphics",
+    "name": "Motion Graphics",
+    "slug": "motion-graphics",
+    "tagline": "Design, movement and storytelling in motion.",
+    "description": "Going beyond cutting footage to build visual motion systems: kinetic typography, title sequences, 2D animations, infographics, UI motion, and cinematic lower thirds.",
+    "visualKeywords": [
+      "Kinetic typography",
+      "Modern & precise",
+      "Infographics & data visualization",
+      "Title sequences",
+      "UI animation",
+      "Brand motion systems"
+    ],
+    "techniques": [
+      "Kinetic type animation",
+      "Vector & 2D motion graphics",
+      "Custom lower thirds & callouts",
+      "Data & map visualization",
+      "Seamless graphic transitions",
+      "VFX compositing"
+    ],
+    "accentColor": "#10b981"
+  }
+]
